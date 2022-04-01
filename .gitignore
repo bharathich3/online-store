@@ -23,5 +23,5 @@
 hs_err_pid*
 
 
-/onlinestore/target/
-/storebackend/target/
+onlinestore/target
+storebackend/target
