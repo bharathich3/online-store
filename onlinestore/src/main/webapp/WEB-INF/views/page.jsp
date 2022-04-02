@@ -28,7 +28,7 @@
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
 
 <!-- Bootstrap Readable Theme -->
-  <link href="${css}/bootstrap-simple-theme.css" rel="stylesheet">
+<link href="${css}/bootstrap-readable-theme.css" rel="stylesheet">
 
 
 <!-- Add custom CSS here -->
@@ -59,6 +59,12 @@
 				<%@ include file="contact.jsp"%>
 
 			</c:if>
+			<!-- Load only when user clicks All products or Category Products -->
+			<c:if test="${userClickAllProducts==true or userClickCategoryProducts == true}">
+				<%@ include file="listProducts.jsp"%>
+
+			</c:if>
+			
 		</div>
 		<!-- Footer comes here -->
 		<%@include file="./shared/footer.jsp"%>
