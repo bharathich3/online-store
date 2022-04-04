@@ -5,9 +5,16 @@ import java.util.List;
 import com.spring.storebackend.dto.Category;
 
 public interface CategoryDAO {
+	
+	public Category get(int id);
 
 	public List<Category> list();
 
-	public Category get(int id);
+	boolean add(Category category);
 	
+	boolean update(Category category);
+
+	boolean delete(Category category);
+
+
 }

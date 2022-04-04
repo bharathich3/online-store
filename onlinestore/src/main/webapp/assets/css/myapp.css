@@ -1,69 +1,75 @@
-html{
-	height:100%;
+html {
+	height: 100%;
 }
 
 body {
-  padding-top: 70px;
-  height:100%
+	padding-top: 70px;
+	height: 100%
 }
 
 .slide-image {
-  width: 100%;
+	width: 100%;
 }
 
 .carousel-holder {
-  margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
-.carousel-control,.item {
-  border-radius: 4px;
+.carousel-control, .item {
+	border-radius: 4px;
 }
 
 .caption {
-  height: 130px;
-  overflow: hidden;
+	height: 130px;
+	overflow: hidden;
 }
 
 .caption h4 {
-  white-space: nowrap;
+	white-space: nowrap;
 }
 
 .thumbnail img {
-  width: 100%;
+	width: 100%;
 }
 
 .ratings {
-  color: #d17581;
-  padding-left: 10px;
-  padding-right: 10px;
+	color: #d17581;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .thumbnail {
-  padding: 0;
+	padding: 0;
 }
 
 .thumbnail .caption-full {
-  padding: 9px;
-  color: #333;
+	padding: 9px;
+	color: #333;
 }
 
 footer {
-  margin:  0;
+	margin: 0;
 }
 /*
 custom Styling
 
 */
-.wrapper{
+.wrapper {
 	min-height: 100%;
 	position: relative;
-   	
 }
-.content{
+
+.content {
 	padding-bottom: 60px; /*  height of footer */
 }
-.footer{
+
+.footer {
 	position: absolute;
 	bottom: 15px;
 	height: 60px;
+}
+
+.dataTableImg {
+	width: 100px;
+	height: 100px;
 }
