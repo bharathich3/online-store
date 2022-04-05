@@ -11,7 +11,7 @@
    http://www.springframework.org/schema/mvc/spring-mvc.xsd
    
    ">
-   <context:component-scan base-package="com.spring.onlinestore.controller"/>
+   <context:component-scan base-package="com.spring.onlinestore"/>
    <context:component-scan base-package="com.spring.storebackend"/>
    
    <bean id="viewresolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
