@@ -32,6 +32,7 @@ public class PageController {
 		mv.addObject("title","Home");
 		
 		logger.info("Welcome to GTP");
+		logger.info("Welcome to GTP/Manager");
 		logger.info("Inside PageController index method -INFO");
 		logger.debug("Inside PageController index method -DEBUG");
 		//passing the list of categories
