@@ -25,11 +25,15 @@ public class PageController {
 	@Autowired
 	private ProductDAO productDAO;
 	
+	
 	@RequestMapping(value= {"/","/home","/index"})
 	public ModelAndView index() {
 		ModelAndView mv=new ModelAndView("page");
 		mv.addObject("title","Home");
 		
+		logger.info("Hello");
+		logger.debug("Welcome");
+		logger.info("logger modified");
 		logger.info("Inside PageController index method -INFO");
 		logger.debug("Inside PageController index method -DEBUG");
 		//passing the list of categories
