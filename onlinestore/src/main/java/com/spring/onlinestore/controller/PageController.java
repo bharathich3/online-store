@@ -31,6 +31,7 @@ public class PageController {
 		ModelAndView mv=new ModelAndView("page");
 		mv.addObject("title","Home");
 		
+		logger.info("Hello");
 		logger.info("logger modified");
 		logger.info("Inside PageController index method -INFO");
 		logger.debug("Inside PageController index method -DEBUG");
