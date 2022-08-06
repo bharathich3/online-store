@@ -31,7 +31,7 @@ public class PageController {
 		ModelAndView mv=new ModelAndView("page");
 		mv.addObject("title","Home");
 		
-		logger.info("logger modified");
+		logger.info("Welcome to git");
 		logger.info("Inside PageController index method -INFO");
 		logger.debug("Inside PageController index method -DEBUG");
 		//passing the list of categories
