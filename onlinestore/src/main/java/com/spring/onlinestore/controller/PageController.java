@@ -32,6 +32,7 @@ public class PageController {
 		mv.addObject("title","Home");
 		
 		logger.info("Hello");
+		logger.debug("Welcome");
 		logger.info("logger modified");
 		logger.info("Inside PageController index method -INFO");
 		logger.debug("Inside PageController index method -DEBUG");
