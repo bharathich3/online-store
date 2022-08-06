@@ -25,10 +25,13 @@ public class PageController {
 	@Autowired
 	private ProductDAO productDAO;
 	
+	
 	@RequestMapping(value= {"/","/home","/index"})
 	public ModelAndView index() {
 		ModelAndView mv=new ModelAndView("page");
 		mv.addObject("title","Home");
+		
+		logger.info("New Branch created");
 		
 		logger.info("Inside PageController index method -INFO");
 		logger.debug("Inside PageController index method -DEBUG");
